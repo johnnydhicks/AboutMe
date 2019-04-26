@@ -23,6 +23,9 @@ class ViewController: UIViewController {
 
         self.nameLabel.text = "Johnny"
         self.hobbiesLabel.text = "Basketball, Coding, Movies, Golf"
+        print("Added a really cool feature")
     }
+    
+    
 }
 
