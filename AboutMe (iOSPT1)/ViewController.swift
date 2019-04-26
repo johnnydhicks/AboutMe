@@ -15,10 +15,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hobbiesLabel.text = nil
+        self.nameLabel.text = nil
 
     }
     
     @IBAction func introduceSelfButtonTapped(_ sender: UIButton) {
+
         self.nameLabel.text = "Johnny"
         self.hobbiesLabel.text = "Basketball, Coding, Movies, Golf"
     }
