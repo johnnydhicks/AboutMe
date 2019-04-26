@@ -17,5 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    
+    @IBAction func introduceSelfButtonTapped(_ sender: UIButton) {
+        self.nameLabel.text = "Johnny"
+        self.hobbiesLabel.text = "Basketball, Coding, Movies, Golf"
+    }
 }
 
